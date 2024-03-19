@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package arvore;
-
 /**
  *
  * @author dados
@@ -53,7 +52,7 @@ class Arvore {
             percorrerPreordem(raiz.direita);
         }
     }
-
+    
     void percorrerInordem(No raiz) {
         if (raiz != null) {
             percorrerInordem(raiz.esquerda);
@@ -257,8 +256,8 @@ class Arvore {
                     break;
                 case 0:
                     System.out.println("Saindo." );
-                    break;
-                
+                    break; 
+                    
             }
         } while (escolha != 0);
 
